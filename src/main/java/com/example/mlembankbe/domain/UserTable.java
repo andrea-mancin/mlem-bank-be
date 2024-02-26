@@ -1,4 +1,4 @@
-package com.example.bananabankbe.domain;
+package com.example.mlembankbe.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

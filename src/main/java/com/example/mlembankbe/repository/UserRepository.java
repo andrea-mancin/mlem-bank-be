@@ -1,6 +1,6 @@
-package com.example.bananabankbe.repository;
+package com.example.mlembankbe.repository;
 
-import com.example.bananabankbe.domain.UserTable;
+import com.example.mlembankbe.domain.UserTable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

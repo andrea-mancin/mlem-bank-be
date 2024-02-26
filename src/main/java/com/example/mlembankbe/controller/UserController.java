@@ -1,7 +1,7 @@
-package com.example.bananabankbe.controller;
+package com.example.mlembankbe.controller;
 
-import com.example.bananabankbe.domain.UserTable;
-import com.example.bananabankbe.repository.UserRepository;
+import com.example.mlembankbe.domain.UserTable;
+import com.example.mlembankbe.repository.UserRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

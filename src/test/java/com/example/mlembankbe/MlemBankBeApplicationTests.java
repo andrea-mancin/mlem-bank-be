@@ -1,10 +1,10 @@
-package com.example.bananabankbe;
+package com.example.mlembankbe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BananaBankBeApplicationTests {
+class MlemBankBeApplicationTests {
 
 	@Test
 	void contextLoads() {

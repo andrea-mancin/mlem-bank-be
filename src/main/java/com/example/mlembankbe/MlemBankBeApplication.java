@@ -1,18 +1,18 @@
-package com.example.bananabankbe;
+package com.example.mlembankbe;
 
-import com.example.bananabankbe.domain.UserTable;
-import com.example.bananabankbe.repository.UserRepository;
+import com.example.mlembankbe.domain.UserTable;
+import com.example.mlembankbe.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BananaBankBeApplication implements CommandLineRunner {
+public class MlemBankBeApplication implements CommandLineRunner {
 	@Autowired UserRepository repository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(BananaBankBeApplication.class, args);
+		SpringApplication.run(MlemBankBeApplication.class, args);
 	}
 
 	@Override
